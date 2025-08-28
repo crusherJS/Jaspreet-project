@@ -15,6 +15,7 @@ export default function About() {
   };
 
   return (
+
     <div className={`min-h-screen py-12 px-4 sm:px-6 lg:px-8 ${isDark ? 'bg-gray-900' : 'bg-gray-50'}`}>
       <div className="max-w-7xl mx-auto">
         {/* Hero Section */}
@@ -24,6 +25,7 @@ export default function About() {
             Creating homes away from home for students since 2010
           </p>
         </div>
+        
         
         {/* Main Content */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
